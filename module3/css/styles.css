@@ -5,7 +5,7 @@
 
 /** HEADER **/
 #header-nav {
-	background: lightgray; /*#f6b319; */
+	background: lightgray;
 	border-radius: 0;
 	border: 0;
 	font-family: sans-serif;
@@ -13,15 +13,17 @@
 	font-weight: bold;
 	text-align: auto;
 }
-/**  body **/
+
 body {
 	font-size: 16px;
-	color: black; /*#fff; */
-	/*background: #61122f; */
+	color: black;
 	font-family: sans-serif;
 	text-align: auto;
 }
 
+.navbar-brand {
+	font-size: 1.8em;
+}
 #header-nav button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid black;
 }
@@ -37,7 +39,6 @@ body {
 }
 
 #collapsable-nav-1 {
-	/*padding: 0px;*/
 	margin: 0px;
 	background-color: white;
 }
